@@ -1,7 +1,7 @@
 /* google fonts  */
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap");
 
-/* common css */
+/* common css start*/
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #444;
+    color: #333;
 }
 p {
     color: #666;
@@ -25,10 +25,10 @@ p {
 }
 .container {
     max-width: 1160px;
-    padding: 0 30px;
+    padding: 0 15px;
     margin: 0 auto;
 }
-
+/* Common css end */
 /* Hero Area */
 .hero-area {
     background-color: #1f3782;
@@ -44,7 +44,6 @@ p {
 }
 .hero-content h2 {
     font-size: 70px;
-    width: 95%;
     color: #fff;
 }
 .hero-btn {
@@ -194,7 +193,7 @@ p {
 }
 .table-container th,
 .table-container td {
-    padding: 20px 20px;
+    padding: 20px;
     text-align: left;
 }
 .table-btn {
@@ -266,6 +265,7 @@ p {
 }
 .footer-img img {
     width: 100%;
+    transform: translateX(-10px);
 }
 .social-links {
     padding: 10px 0 25px;
@@ -278,10 +278,12 @@ p {
     height: 35px;
     width: 35px;
     text-align: center;
-    line-height: 37px;
     border-radius: 100%;
     margin: 0 3px;
     transition: all 0.4s;
+}
+.social-links a i {
+    line-height: 35px;
 }
 .social-links a:hover {
     background-color: #5270ca;

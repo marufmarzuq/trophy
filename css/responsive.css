@@ -16,7 +16,7 @@
 }
 @media (max-width: 650px) {
     .hero-content h2 {
-        font-size: 35px;
+        font-size: 40px;
     }
 }
 @media (max-width: 570px) {
@@ -31,16 +31,8 @@
         margin: 0 auto;
         padding-top: 60px;
     }
-    .common-btn {
-        height: 45px;
-        width: 165px;
-        line-height: 45px;
-    }
 }
 @media (max-width: 470px) {
-    .hero-content {
-        width: 300px;
-    }
     .hero-img {
         width: 95%;
     }
@@ -102,11 +94,25 @@
 /* Table css */
 @media (max-width: 800px) {
     .table-container table {
-        min-width: 600px;
+        min-width: 550px;
     }
     .table-container {
         padding: 20px 0;
         overflow-x: scroll;
+    }
+    .table-area h2 {
+        font-size: 35px;
+    }
+    .table-container th,
+    .table-container td {
+        padding: 15px 10px;
+        text-align: left;
+    }
+    .table-container thead {
+        font-size: 15px;
+    }
+    .table-container tbody {
+        font-size: 14px;
     }
 }
 /* Sign up css */

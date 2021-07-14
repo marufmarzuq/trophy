@@ -1,3 +1,4 @@
+/* Hero css */
 @media (max-width: 1080px) {
     .hero-content h2 {
         font-size: 55px;
@@ -20,7 +21,7 @@
 }
 @media (max-width: 570px) {
     .hero-content {
-        width: 395px;
+        width: 100%;
     }
     .hero-area .container {
         flex-direction: column;
@@ -30,9 +31,6 @@
         margin: 0 auto;
         padding-top: 60px;
     }
-    .hero-content h2 {
-        font-size: 50px;
-    }
     .common-btn {
         height: 45px;
         width: 165px;
@@ -40,10 +38,14 @@
     }
 }
 @media (max-width: 470px) {
+    .hero-content {
+        width: 300px;
+    }
     .hero-img {
         width: 95%;
     }
 }
+/* Blog css */
 @media (max-width: 1000px) {
     .blog-boxes {
         padding: 50px 0;
@@ -68,6 +70,7 @@
         padding: 50px 0;
     }
 }
+/* Highlight css */
 @media (max-width: 1050px) {
     .highlight-content h2 {
         font-size: 30px;
@@ -96,6 +99,7 @@
         width: 100%;
     }
 }
+/* Table css */
 @media (max-width: 800px) {
     .table-container table {
         min-width: 600px;
@@ -105,62 +109,19 @@
         overflow-x: scroll;
     }
 }
-@media (max-width: 1180px) {
-    .signup-content {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+/* Sign up css */
+@media (max-width: 500px) {
+    .signup-input-container input[type="submit"] {
+        margin-left: 0;
+        margin-top: 10px;
     }
-    .signup-content p {
-        width: 70%;
-        text-align: center;
-        padding: 30px 0;
-    }
-    .signup-content h2 {
-        text-align: center;
+}
+@media (max-width: 360px) {
+    .signup-input-container input[type="email"] {
         width: 100%;
-        font-size: 40px;
-    }
-    .signup-input-container input[type="email"] {
-        transform: translateX(-35px);
-        margin: 0 auto;
-    }
-    .signup-input-container input[type="submit"] {
-        transform: translateX(-35px);
     }
 }
-@media (max-width: 740px) {
-    .signup-input-container input[type="email"] {
-        transform: translateX(-90px);
-        margin: 0 auto;
-    }
-    .signup-input-container input[type="submit"] {
-        transform: translateX(-90px);
-    }
-}
-@media (max-width: 550px) {
-    .signup-input-container input[type="email"] {
-        padding: 14px 20px;
-        width: 250px;
-        transform: translateX(-50px);
-    }
-    .signup-input-container input[type="submit"] {
-        padding: 14px 20px;
-        transform: translateX(-150px);
-    }
-}
-@media (max-width: 420px) {
-    .signup-input-container input[type="email"] {
-        padding: 14px 20px;
-        width: 250px;
-        transform: translateX(-80px);
-    }
-    .signup-input-container input[type="submit"] {
-        padding: 14px 20px;
-        right: 35px;
-    }
-}
-
+/* Footer css */
 @media (max-width: 740px) {
     .footer-img {
         width: 70%;
